@@ -1,7 +1,7 @@
 const GET_MESSAGE_REQUEST = 'GET_MESSAGE_REQUEST';
 const GET_MESSAGE_SUCCESS = 'GET_MESSAGE_SUCCESS';
 const GET_MESSAGE_FAILURE = 'GET_MESSAGE_FAILURE';
-const url = '/v1/messages';
+const url = 'http://127.0.0.1:3060/';
 
 const initialState = '';
 
