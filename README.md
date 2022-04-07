@@ -1,71 +1,46 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/React-teal) ![](https://img.shields.io/badge/Redux-purple)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hello Rails Front-end
 
-## Available Scripts
+> Mobile web application built that shows a random greeting from a [Rails API](https://github.com/lu-jim/hello-react-front-end))
+## Built With
 
-In the project directory, you can run:
+- Javascript
+- React
+- Redux
 
-### `npm start`
+## Getting Started
+To get a local copy up and running follow these simple steps.
+### Prerequisites
+- Having a modern internet browser: I.E. Chrome, Edge, Safari, Firefox.
+### Setup
+- Go into the main page for this project: https://github.com/lu-jim/hello-react-front-end
+- Click the green Code button next to the About section.
+- Select the then click the 📋 button.
+### Install
+- Open your console and change the current working directory into the destination for this project.
+- Type `git clone`, and then paste the URL copied in the Setup section.
+- Type Enter to finish the installation process.
+- Run `npm i` and after all the dependencies are installed run `npm start`
+## Authors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+👤 **Luis Fernando Jimenez**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- GitHub: [@lu-jim](https://github.com/lu-jim)
+- Twitter: [@lujimhe](https://twitter.com/lujimhe)
+- LinkedIn: [@lujim](https://www.linkedin.com/in/lujim/)
 
-### `npm test`
+## 🤝 Contributing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contributions, issues, and feature requests are welcome!
 
-### `npm run build`
+## Show your support
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Give a ⭐️ if you like this project!
+## Acknowledgments
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Microverse for the guidelines used for this project
+- My SO and project manager, Mane
+## 📝 License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# hello-react-front-end
+This project is [MIT](./MIT.md) licensed.
