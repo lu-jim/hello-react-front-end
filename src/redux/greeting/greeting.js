@@ -6,29 +6,26 @@ const url = '/v1/messages';
 const initialState = '';
 
 const getMessageRequest = () => ({
-  type: GET_MESSAGE_REQUEST
-})
+  type: GET_MESSAGE_REQUEST,
+});
 const getMessageSuccess = (payload) => ({
   type: GET_MESSAGE_SUCCESS,
-  payload
-})
+  payload,
+});
 const getMessageFailure = () => ({
-  type: GET_MESSAGE_FAILURE
-})
+  type: GET_MESSAGE_FAILURE,
+});
 
-export const getMessage = () => {
-  return async (dispatch) => {
-    dispatch(getMessageRequest());
-    try {
-      const response = await fetch(url);
-      const json = await response.json()
-      dispatch(getMessageSuccess(json.message))
-    }
-    catch (error) {
-      dispatch(getMessageFailure)
-    }
+export const getMessage = () => async (dispatch) => {
+  dispatch(getMessageRequest());
+  try {
+    const response = await fetch(url);
+    const json = await response.json();
+    dispatch(getMessageSuccess(json.message));
+  } catch (error) {
+    dispatch(getMessageFailure);
   }
-}
+};
 
 const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
